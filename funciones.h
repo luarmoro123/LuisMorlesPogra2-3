@@ -46,8 +46,8 @@ void cotizacion()
     //entrada
 
     cout << " precio del automovil: ", cin >> precio;
-    cout << "porcentaje del pago inicial",cin>> porcentajePI;
-    cout << "el plazo",cin >> plazo;
+    cout << "porcentaje del pago inicial: ",cin>> porcentajePI;
+    cout << "el plazo: ",cin >> plazo;
 
     //proceso
 
@@ -81,9 +81,15 @@ void imc(){
     }
     else if (imc < 18.5)
     {
-        cout << " persona con bajo peso" << endl;
+        cout << " persona con bajo peso "  << endl;
         cout << imc << endl;
     }
+    else
+    { 
+        cout << " persona con peso normal " << endl;
+        cout << imc << endl; 
+    }
+
     
 }
 
