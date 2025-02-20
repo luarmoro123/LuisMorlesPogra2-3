@@ -26,6 +26,7 @@ int main()
             break;
         case 5:
             cout << "gracias por usar el pograma";
+            break;
         default:
             cout << "No se una opcion valida";
             break;
