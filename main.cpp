@@ -24,6 +24,8 @@ int main()
         case 4:
             boleto();
             break;
+        case 5:
+            cout << "gracias por usar el pograma";
         default:
             cout << "No se una opcion valida";
             break;
